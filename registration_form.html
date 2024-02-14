@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration page</title>
+    </head>
+    <body>
+        <section>
+            <div>
+                <h1 align="center">Registration Form</h1>
+                <p align="center"><i>Add below your personal information</i></p>
+                <br>
+                <form method="GET" action="https://www.fabiovitali.it/TW/DHDK/doResponse.php">
+                    <p>
+                        <label>Name: <input type="text" name="name" placeholder="Enter your name"></label>
+                        <label>Middle Initial: <input type="text" name="midin" placeholder="Enter Middle Initial"></label>
+                        <label>Surname: <input type="text" name="surn" placeholder="Enter Family Name"></label> 
+                    </p>
+                    <p>                   
+                        <label>Address: 
+                        <select name="nation">
+                            <option value="none" selected>---select one---</option>
+                            <option value="Italy">Italy</option>
+                            <option value="France">France</option>
+                            <option value="Greece">Greece</option>
+                            <option value="Germany">Germany</option>
+                        </select>
+                        <input type="text" name="homet" placeholder="Hometown">
+                        <input type="text" name="street" placeholder="Street">
+                        <input type="text" name="streetnum" placeholder="Number">
+                        </label>
+                    </p>
+                    <p>
+                        <label>Telephone: 
+                            <select name="prefix">
+                                <option value="none" selected>--</option>
+                                <option value="it">+39</option>
+                                <option value="fr">+50</option>
+                                <option value="gr">+34</option>
+                            </select>
+                            <input type="text" name="tel" placeholder="Telephone Number">
+                        </label>
+                    </p>
+                    <p>
+                        <label>Email: <input type="email" name="mail" placeholder="Email Address"></label>
+                    </p>
+                    <p>
+                        Define your gender: 
+                        <label><input type="radio" name="gender" value="m">Male</label>
+                        <label><input type="radio" name="gender" value="f">Female</label>
+                        <label><input type="radio" name="gender" value="w">Won't say</label>
+                    </p>
+                    <p>
+                        <p>Provide a short bio:</p>
+                        <textarea name="bio" rows="4" cols="50" placeholder="Enter a text here..."></textarea> 
+                    </p>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
